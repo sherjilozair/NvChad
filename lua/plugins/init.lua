@@ -3,6 +3,11 @@
 local default_plugins = {
 
   "nvim-lua/plenary.nvim",
+  {
+    "ThePrimeagen/vim-be-good",
+    lazy = false,
+    cmd = {"VimBeGood"},
+  },
 
   {
     "NvChad/base46",

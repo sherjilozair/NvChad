@@ -4,6 +4,9 @@ local M = {}
 
 M.general = {
   i = {
+    -- go to normal mode
+    ["jk"] = {"<Esc>", "Go to normal mode"},
+
     -- go to  beginning and end
     ["<C-b>"] = { "<ESC>^i", "Beginning of line" },
     ["<C-e>"] = { "<End>", "End of line" },
